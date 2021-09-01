@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 body{
-    position: relative;
 /*    max-width: 1002px;
     min-width: 1200px;*/
     margin: 3% 10% 2%;
@@ -73,8 +72,7 @@ body{
     display: flex;
     align-items: flex-end;
 }
- .svv{
-     
+ .svv{     
      width: 28px;
     cursor: pointer;
 }
@@ -140,7 +138,6 @@ body{
   display: flex;
   align-items: flex-end;
   justify-content: center;
-   width: 80%;
    margin: auto;
 }
 
