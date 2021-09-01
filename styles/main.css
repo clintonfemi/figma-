@@ -186,6 +186,40 @@ body{
 }
 
 /* section 2 end */
+.pinkbox {
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;   
+}
+
+.pinkbox{
+    margin-top: 30px;
+    /*min-width: 1110px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    max-width: 100%;
+}
+.pb-big {
+    padding-right: 35px;
+    padding-bottom: 50px;
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 90%;
+color: var(--header-colour);
+}
+.pb-small {
+    padding-bottom: 20px;
+    padding-right: 35px;
+    font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+color: var(--text-color);
 
 /* section 3 begining */
 
