@@ -449,6 +449,86 @@ content: "...";
 
 /* section 4 end */
 
-/* section 5 begining */
+hr {
+  width: 90% !important;
+  margin: 40px !important;
+  opacity: 0.2;
+}
 
+/* section 5 begining */
+.footer__wrapper {
+  display: flex;
+}
+
+.lastbox1__header h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--header-colour);
+}
+
+.lastbox1__header p {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4b5d68;
+}
+
+.footer__sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.footer__bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastbox__content__logo {
+  color: #212353;
+}
+
+.address {
+  color: #212353;
+  margin-top: 100px;
+  line-height: 20px;
+}
+
+.list1 {
+  margin-top: 120px;
+  color: #212353;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list1 li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.list2 {
+  margin-top: 120px;
+  color: #212353;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.list2 li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.socials {
+  margin-top: 120px;
+  color: #212353;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
 /* section 5 end */
