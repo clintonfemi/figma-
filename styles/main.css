@@ -790,9 +790,13 @@ hr {
   .box1__img{
     display: none;
   }
-
-
+  .rowimages1,.rowimages2,.rowimages3,.rowimages4{
+    display: none;
+    border-radius: 0;
+  }
+  
 }
+
 @media screen and (max-width: 435px) {
   .big-text {
     font-size: 25px;
@@ -818,26 +822,19 @@ hr {
   .pb-big {
     font-size: 25px;
   }
-  .footer__bot{
-    flex-direction: ;
+  .footer__bot,
+  .address,
+  .list1,
+  .list2,
+  .socials {
+    align-content: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
   }
+  
 }
-@media only screen and (max-width: 350px){
-  body{
-    width: 80%;
-    margin: auto;
-  }
- .box1__img{
-   display: none;
- }
- .rowimages1,.rowimages2,.rowimages3,.rowimages4{
-   display: none;
-   border-radius: 0;
- }
- hr{
-   display: none;
- }
-}
+
 @media screen and (max-width: 280px) {
   .testi-wrapper {
     display: none;
@@ -849,7 +846,7 @@ hr {
   .pb-big {
     font-size: 20px;
   }
-
+}
 .box1__img {
   padding-top: 20px;
   width: 40rem;
@@ -859,4 +856,4 @@ hr {
   height: 100%;
   object-fit: cover;
 }
-}
+
